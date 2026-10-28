@@ -18,3 +18,5 @@ echo "## DISK USAGE TOP 30"
 du -sh "$HOME"/*/ 2>/dev/null | sort -rh | head -30
 } | tee "$REPORT"
 echo "✓ Saved: $REPORT"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=c25_ranger.sh
